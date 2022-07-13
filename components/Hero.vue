@@ -26,9 +26,6 @@
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M25.4853 2.66667H20L16 9.2L12.572 2.66667H0L16 30.6667L32 2.66667H25.4853ZM4 5H7.88533L16 19.4667L24.1147 5H28L16 26L4 5Z" fill="#DADADA"/>
                 </svg>
-
-
-
             </div>
 
             <NuxtLink class="bg-blue-600 hover:bg-blue-700 font-semibold text-sm transition-all ease-in-out duration-300 focus:scale-90 py-3 rounded-lg w-[150px] mx-auto" to="/category">
