@@ -15,6 +15,11 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
+    .nav-menu {
+        @apply backdrop-blur-xl bg-gray-900/80 duration-300 fixed inset-0 lg:backdrop-blur-none lg:bg-transparent lg:border-r-0 lg:shadow-none lg:static lg:translate-x-0 lg:w-auto peer-checked:translate-x-0 transition translate-x-[-100%] w-[calc(100%-6.5rem)]
+        
+    }
 }
 
 @layer utilities {
