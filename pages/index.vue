@@ -1,8 +1,8 @@
 <template>
   <div class="overflow-x-hidden">
     <hero/>
-     <svg class="w-full -mb-2" viewBox="0 0 1440 249" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 105.176L60 75.2129C120 45.2497 240 -14.6769 360 3.30105C480 21.279 600 117.162 720 135.14C840 153.117 960 93.1909 1080 69.2203C1200 45.2497 1320 57.235 1380 63.2276L1440 69.2203V249H1380C1320 249 1200 249 1080 249C960 249 840 249 720 249C600 249 480 249 360 249C240 249 120 249 60 249H0V105.176Z" fill="#0F1D50" fill-opacity="0.97"/>
+      <svg class="w-full -mb-2" viewBox="0 0 1440 249" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 105.176L60 75.2129C120 45.2497 240 -14.6769 360 3.30105C480 21.279 600 117.162 720 135.14C840 153.117 960 93.1909 1080 69.2203C1200 45.2497 1320 57.235 1380 63.2276L1440 69.2203V249H1380C1320 249 1200 249 1080 249C960 249 840 249 720 249C600 249 480 249 360 249C240 249 120 249 60 249H0V105.176Z" fill="#0F1D50" fill-opacity="0.97"/>
       </svg>
     <div class="bg-[#0F1D4F] min-h-screen group -mt-[24px]  md:-mt-[65px] lg:-mt-[90px]">
 

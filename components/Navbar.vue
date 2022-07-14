@@ -1,12 +1,12 @@
 <template>
-    <header class="fixed inset-x-0 z-30">
-        <div class="flex justify-between items-center py-3 md:py-8 px-8 bg-gray-900 border-b border-gray-800">
-            <a href="/">
-                <img class="z-50" src="~/assets/images/logo.svg" alt="">
+    <header :class="{'onScroll': !view.topOfPage}">
+        <div class="flex justify-between items-center py-3 md:py-8 px-8">
+            <a class="z-50" href="/">
+                <img  src="~/assets/images/logo.svg" alt="">
             </a>
 
             <input class="peer hidden" type="checkbox" name="hamburger" id="hamburger" />
-            <label class="peer-checked:hamburger block relative cursor-pointer lg:hidden border-2 border-gray-300 peer-checked:border-2 peer-checked:border-white p-3 rounded-md transition-all z-30" for="hamburger">
+            <label class="peer-checked:hamburger block relative cursor-pointer lg:hidden border-2 border-gray-300 peer-checked:border-2 peer-checked:border-white p-3 rounded-md transition-all" for="hamburger">
                <div class="m-auto w-6 h-0.5 rounded bg-gray-300 transition-all duration-300"></div>
                <div class="m-auto mt-2 w-6 h-0.5 rounded bg-gray-300 transition-all duration-300"></div>
             </label>
@@ -22,3 +22,27 @@
         </div>
     </header>
 </template>
+
+<script>
+export default {
+    data () {
+    return {
+      view: {
+        topOfPage: true
+      }
+    }
+  },
+  beforeMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll(){
+      if(window.pageYOffset>0){
+        if(this.view.topOfPage) this.view.topOfPage = false
+      } else {
+        if(!this.view.topOfPage) this.view.topOfPage = true
+      }
+    }
+  },
+}
+</script>
