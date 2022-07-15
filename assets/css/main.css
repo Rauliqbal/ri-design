@@ -21,7 +21,7 @@
     }
 
     .onScroll {
-        @apply fixed bg-gray-900 border-b border-gray-800
+        @apply fixed bg-gray-900 md:bg-gray-900/80 md:backdrop-blur-sm 
     }
 
     .nav-menu {

@@ -1,6 +1,6 @@
 <template>
     <header :class="{'onScroll': !view.topOfPage}">
-        <div class="flex justify-between items-center py-3 md:py-8 px-8">
+        <div class="flex justify-between items-center py-3 md:py-8 px-6 lg:px-8">
             <a class="z-50" href="/">
                 <img  src="~/assets/images/logo.svg" alt="">
             </a>
