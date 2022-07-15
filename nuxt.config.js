@@ -60,5 +60,10 @@ export default {
         autoprefixer: {},
       },
     },
+  },
+
+  transition : {
+    name: 'layouts',
+    node: 'out-in',
   }
 }
