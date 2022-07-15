@@ -21,10 +21,19 @@
         </div>
      </div>
 
-    <div class="container px-6 lg:px-8 mt-52 md:mt-96">
-      <h2 class="font-semibold text-2xl md:text-4xl text-center">Free Landing Page Templates <br> for <span class="text-gradient">awesome projects</span></h2>
-      <card class="mt-14"/>
-    </div>
+      <div class="container px-6 lg:px-8 mt-52 md:mt-96">
+          <h2 class="font-semibold text-2xl md:text-4xl text-center">Browse for <br><span class="text-gradient">awesome projects</span></h2>
+          <p class="text-base text-gray-400 text-center mt-2">Pick the website template</p>
+          <ProductCard class="mt-14"/>
+
+          <h2 class="font-semibold text-2xl md:text-4xl text-center mt-40">Free Landing Page Templates <br> for <span class="text-gradient">awesome projects</span></h2>
+          <card class="mt-14"/>
+    
+      
+      </div>
+
+      
+    
     </div>
 
   </div>
@@ -33,10 +42,11 @@
 <script>
 import Hero from "~/components/Hero.vue"
 import Card from "~/components/Card.vue"
+import ProductCard from "~/components/ProductCard.vue"
 
 
 export default {
-   components: { Hero,Card }, 
+   components: { Hero,Card,ProductCard }, 
   name: 'IndexPage',
 }
 </script>
